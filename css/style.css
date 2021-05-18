@@ -2,8 +2,13 @@
     font-family: 'Exo 2', sans-serif;
 }
 
+body {
+    margin: 0;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Krona One', sans-serif;
+    margin: 10px 0;
 }
 
 h1 {
@@ -53,6 +58,10 @@ section {
     height: 40px;
 }
 
+.feat-card {
+
+}
+
 .container {
     display: flex; 
   }
@@ -77,6 +86,10 @@ header {
     padding: 36px;
 }
 
+footer {
+    justify-content: space-evenly;
+}
+
 .card {
     width: 250px;
 }
@@ -96,6 +109,19 @@ header {
     background-size: cover; 
     height: 60vh;
     text-align: center;
+}
+
+#hero div {
+    padding: 20px;
+}
+
+#articles {
+    justify-content: space-between;
+}
+
+#contact {
+    justify-content: space-around;
+    background-color:cadetblue;
 }
 
 /* LINKS */
