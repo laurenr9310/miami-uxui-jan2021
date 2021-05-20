@@ -58,20 +58,34 @@ section {
     height: 40px;
 }
 
-.feat-card {
+.feat-item {
+    flex-grow: 1;
+}
 
+a.btn-rocio {
+    font-family: 'Poppins', sans-serif;
+    color: #131045; 
+    background-color: white;
+    border: 3px solid #131045;
+    padding: 10px 20px;
+    box-shadow: 4px 4px 0 #131045;
+    border-radius: 100px;
 }
 
 .container {
     display: flex; 
   }
   
-  img {
+img {
     /* width: 100% */
 }
 
 .author-card {
     align-items: center;
+}
+
+#video {
+    padding: 0;
 }
 
 .author-photo {
@@ -95,13 +109,25 @@ footer {
 }
 
 .img-card {
+    position: absolute;
+    right: 0;
+    bottom: 0;
     width: 100%;
+}
+
+.img-holder {
+    position: relative;
+    height: 180px;
+    width: 100%;
+    overflow: hidden;
+    /* this crops the image */
 }
 
 .img-feat {
     width: 80px;
     height: 80px;
     border-radius: 50px;
+    margin: radius
 }
 
 #hero {
