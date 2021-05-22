@@ -40,7 +40,7 @@ p {
 }
 
 div {
-    border: 1 px blue solid;
+    /* border: 1 px blue solid; */
 }
 
 section {
@@ -150,6 +150,62 @@ footer {
     background-color:cadetblue;
 }
 
+#contact div {
+    padding: 20px;
+}
+
+/* Forms */
+
+input {
+    padding: 16px 24px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+input:focus {
+    background-color: lightyellow;
+    border: none;
+}
+
+input[type=text] { 
+    background-image: url('../icons/user-line.png');
+    background-repeat: no-repeat;
+    background-position: 8px;
+    padding-left: 40px;
+    width: 77%;
+}
+
+input[type=email] {
+    background-image: url('../icons/mail-line.png');
+    background-repeat: no-repeat;
+    background-position: 8px;
+    padding-left: 40px;
+    width: 77%;
+}
+
+textarea {
+    width: 80%;
+    height: 150px;
+    padding: 16px 24px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid gray;
+    resize: none;
+}
+
+input[type=submit] {
+    border: none;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    width: 90%;
+}
+
+#btn-form {
+    width: 90%;
+}
+
 /* LINKS */
 a:link, a:visited {
     text-decoration: none;
@@ -180,6 +236,11 @@ a.cta-button:hover {
 a.cta-button.active {
     background-color: darkred;
 }
+
+.div-contact {
+    flex: 1;
+}
+
 
 /* CV Download Button */
 a.cv-button:link, a.cta-button:visited {
