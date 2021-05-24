@@ -40,7 +40,7 @@ p {
 }
 
 div {
-    /* border: 1 px blue solid; */
+    border: 1 px blue solid;
 }
 
 section {
@@ -58,34 +58,20 @@ section {
     height: 40px;
 }
 
-.feat-item {
-    flex-grow: 1;
-}
+.feat-card {
 
-a.btn-rocio {
-    font-family: 'Poppins', sans-serif;
-    color: #131045; 
-    background-color: white;
-    border: 3px solid #131045;
-    padding: 10px 20px;
-    box-shadow: 4px 4px 0 #131045;
-    border-radius: 100px;
 }
 
 .container {
     display: flex; 
   }
   
-img {
+  img {
     /* width: 100% */
 }
 
 .author-card {
     align-items: center;
-}
-
-#video {
-    padding: 0;
 }
 
 .author-photo {
@@ -102,6 +88,7 @@ header {
 
 footer {
     justify-content: space-evenly;
+    padding: 40px;
 }
 
 .card {
@@ -109,25 +96,13 @@ footer {
 }
 
 .img-card {
-    position: absolute;
-    right: 0;
-    bottom: 0;
     width: 100%;
-}
-
-.img-holder {
-    position: relative;
-    height: 180px;
-    width: 100%;
-    overflow: hidden;
-    /* this crops the image */
 }
 
 .img-feat {
     width: 80px;
     height: 80px;
     border-radius: 50px;
-    margin: radius
 }
 
 #hero {
@@ -148,62 +123,6 @@ footer {
 #contact {
     justify-content: space-around;
     background-color:cadetblue;
-}
-
-#contact div {
-    padding: 20px;
-}
-
-/* Forms */
-
-input {
-    padding: 16px 24px;
-    margin: 8px 0;
-    border-radius: 5px;
-    border: 1px solid grey;
-}
-
-input:focus {
-    background-color: lightyellow;
-    border: none;
-}
-
-input[type=text] { 
-    background-image: url('../icons/user-line.png');
-    background-repeat: no-repeat;
-    background-position: 8px;
-    padding-left: 40px;
-    width: 77%;
-}
-
-input[type=email] {
-    background-image: url('../icons/mail-line.png');
-    background-repeat: no-repeat;
-    background-position: 8px;
-    padding-left: 40px;
-    width: 77%;
-}
-
-textarea {
-    width: 80%;
-    height: 150px;
-    padding: 16px 24px;
-    margin: 8px 0;
-    border-radius: 5px;
-    border: 1px solid gray;
-    resize: none;
-}
-
-input[type=submit] {
-    border: none;
-    background-color: orangered;
-    color: white;
-    cursor: pointer;
-    width: 90%;
-}
-
-#btn-form {
-    width: 90%;
 }
 
 /* LINKS */
@@ -236,11 +155,6 @@ a.cta-button:hover {
 a.cta-button.active {
     background-color: darkred;
 }
-
-.div-contact {
-    flex: 1;
-}
-
 
 /* CV Download Button */
 a.cv-button:link, a.cta-button:visited {

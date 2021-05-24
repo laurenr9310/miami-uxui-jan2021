@@ -1,0 +1,103 @@
+
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* Top menu*/
+
+h1 {
+    font-family: Roboto; 
+    font-weight: 700;
+    font-size: 72px;
+    font-style: Bold;
+    box-align: left; 
+    vertical-align: top;
+    color: black;
+  
+
+}
+
+header {
+    position: absolute;
+    width: 1451px;
+    height: 50px;
+    fill: solid; 
+    color: black;
+    background: #DD5E15;
+    padding: 20px 40px;
+}
+
+
+img {
+    width: 362px;
+    height: 555px;
+    justify-content:right;
+}
+
+.intro {
+    width: 704px;
+    height: 232px;
+    top: 605px;
+    left: 177px;
+}
+
+.child {
+    background-color: white;
+    padding: 40px 80px;
+}
+
+
+.navigation {
+
+    color: black;
+}
+
+
+/* Rectangle 1 */
+
+.card {
+    width: 300px;
+    color: white; 
+    padding: 50px;
+    margin: 20px;
+    background-color: #D79618;
+    align-content: center;
+}
+
+#contact {
+    justify-content: space-around;
+    background-color: #0F2A52;
+    padding: 20px 40px;
+    color: white; 
+}
+
+/* CTA Button */
+a.cta-button:link, a.cta-button:visited {
+    background-color: #6FE9A7;
+    border-radius: 8px;
+    color: black; 
+    padding:16px 24px;
+}
+
+a.cta-button:hover {
+    background-color:#7bffb9 ;
+}
+
+a.cta-button.active {
+    background-color: #c4e96f;
+}
+
+/* CV Download Button */
+a.cv-button:link, a.cta-button:visited {
+    background-color: #489779;
+    border-radius: 8px;
+    color: whitesmoke; 
+    padding:8px 16px;
+}
+
+a.cv-button:hover {
+    background-color: rgb(175, 255, 71);
+}
+
+a.cv-button.active {
+    background-color: rgb(106, 221, 77);
+}
