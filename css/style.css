@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    max-width: 960px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -12,7 +13,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 4.209rem;
+    font-size: 2.8rem;
+    color: white;
 }
 
 h2 {
@@ -21,6 +23,7 @@ h2 {
 
 h3 
     {font-size: 2.441rem;
+    color: white;
 }
 
 h4 {
@@ -40,13 +43,12 @@ p {
 }
 
 div {
-    border: 1 px blue solid;
+    /* border: 1 px blue solid; */
 }
 
 section {
     background-color: lightgray;
     padding: 80px 40px;  
-    
 }
 
 .icons {
@@ -89,6 +91,10 @@ header {
 footer {
     justify-content: space-evenly;
     padding: 40px;
+}
+
+video {
+    width: 100%;
 }
 
 .card {
@@ -171,3 +177,108 @@ a.cv-button:hover {
 a.cv-button.active {
     background-color: darkred;
 }
+
+/* Forms */
+
+input {
+        padding: 16px 24px;
+        margin: 8px 0;
+        border-radius: 5px;
+        border: 1px solid gray;
+    }
+    
+    input [type=text] {
+        box-sizing: border-box;
+        width: 100%;
+        background-image: url(‘../img/user-line.png’);
+        background-repeat: no-repeat;
+        background-position: 8px;
+        padding-left: 40px;
+        width: 77%;
+    }
+    
+    input [type=email] {
+        box-sizing: border-box;
+        width: 100%;
+        background-image: url(‘..img/mail-line’);
+        background-repeat: no-repeat;
+        background-position: 8px;
+        padding-left: 40px;
+        width: 77%;
+    }
+    
+    textarea{
+        box-sizing: border-box;
+        width: 80%;
+        height: 150px;
+        padding: 16px 24px;
+        margin: 8px 0;
+        border-radius: 5px;
+        border: 1px solid grey;
+        resize: none;
+    }
+    
+    textarea:focus {
+        outline: 0;
+        background-color: mintcream;
+    }
+
+    select {
+        width: 80%;
+        padding: 16px 24px;
+        margin: 8px 0;
+        border-radius: 5px;
+    }
+    
+    input[type=submit] {
+        border: none;
+        background-color: orangered;
+        color: white;
+        cursor: pointer;
+    }
+    
+    #btn-form {
+        width: 80%;
+    }
+    
+    input:focus {
+        background-color: lightyellow;
+        outline: 0;
+    }
+    /* LINKS */
+    a:link, a:visited {
+        text-decoration: none;
+        color:lightseagreen;
+        padding: 10px;
+    }
+    a:hover {
+        color:midnightblue;
+    }
+    a:active {
+        color:olive;
+    }
+    
+    /* ------------------------------- */
+    /* ------------------------------- */
+    /* ------------------------------- */
+    /* TABLET */
+    @media only screen and (min-width: 680px) and (max-width: 767px) {
+        h1 {
+            color: darkviolet;
+        }
+    }
+
+
+
+
+    /* ------------------------------- */
+    /* ------------------------------- */
+    /* ------------------------------- */
+    /* DESKTOP */
+    @media only screen and (min-width: 768px) {
+        h1 {
+            color: khaki;
+            font-size: 4.209rem;
+        }
+    }
+
